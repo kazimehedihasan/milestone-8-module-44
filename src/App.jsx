@@ -1,15 +1,18 @@
-
-import './App.css'
+import "./App.css";
+// eslint-disable-next-line no-unused-vars
+import Navebar from "./components/Navebar/Navebar";
+import NewBar from "./components/NewBar/NewBar";
+import PriceOptions from "./components/priceOptions/PriceOptions";
 
 function App() {
-
   return (
     <>
-     
-      <h1 className='bg-red-700'>Vite + React</h1>
-   
+      {/* <Navebar></Navebar> */}
+
+      <NewBar></NewBar>
+      <PriceOptions></PriceOptions>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
